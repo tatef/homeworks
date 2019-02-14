@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+}
+.card{
+  /*давай работай*/
+  display: inline-block;
+  width: 0%;
+  margin: 25%;
+}
+.rectangle{
+position: relative;
+display: inline-block;
+width: 1010px;
+height: 503px;
+border: 1px solid #d7d7d7;
+background-color: #ffffff;
+}
+.img{
+position: absolute;
+top:0;
+left:0;
+display: inline-block;
+margin: 64px 102px 64px 48px;
+width: 376px;
+height: 375px;
+}
+.survey-good {
+position: absolute;
+top: 0;
+right: 0;
+margin: 94px 93px 81px 99px;
+display: inline-block;
+width: 394px;
+height: 328px;
+}
+.name{
+display: inline-block;
+width: 178px;
+height: 22px;
+color: #2f2f2f;
+/*font-family: "Arial - Bold MT";*/
+font-size: 23px;
+}
+.text{
+display: inline-block;
+width: 393px;
+height: 50px;
+color: #2f2f2f;
+/*font-family: "Arial MT";*/
+font-size: 15px;
+font-weight: 400;
+}
+.text-price{
+display: inline-block;
+width: 35px;
+height: 14px;
+color: #2f2f2f;
+/*font-family: "Arial MT";*/
+font-size: 15px;
+font-weight: 500;
+}
+.price{
+display: inline-block;
+width: 103px;
+height: 28px;
+color: #2f2f2f;
+/*font-family: "Arial MT";*/
+font-size: 30px;
+font-weight: 400;
+}
+button {
+display: inline-block;
+/* Style for "конопка" */
+width: 252px;
+height: 50px;
+background-color: #ec744a;
+color: #ffffff;
+}
